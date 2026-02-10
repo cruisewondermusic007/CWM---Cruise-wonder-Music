@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import { HashRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import { Facebook, Youtube, Music, Instagram, Disc, Send, CheckCircle2, Loader2 } from 'lucide-react';
 import { Navbar } from './Navbar.tsx';
-import { SideNavArrows } from './components/SideNavArrows.tsx';
 import { SOCIAL_LINKS, FORM_ENDPOINT } from './constants.tsx';
 import Home from './pages/Home.tsx';
 import About from './pages/About.tsx';
@@ -103,7 +102,6 @@ export default function App() {
       <ScrollToTop />
       <div className="min-h-screen flex flex-col bg-black text-white selection:bg-white selection:text-black">
         <Navbar />
-        <SideNavArrows />
         <main className="flex-grow pt-20">
           <Routes>
             <Route path="/" element={<Home />} />

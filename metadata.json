@@ -1,0 +1,8 @@
+{
+  "name": "CWM – Cruise Wonder Music",
+  "description": "Website Oficial do colectivo CWM – Cruise Wonder Music. Estética cinematográfica em preto e branco.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
